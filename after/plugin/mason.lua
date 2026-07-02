@@ -3,6 +3,7 @@ require("mason").setup()
 -- LSP Languages Servers
 vim.lsp.enable('lua_ls');
 vim.lsp.enable('clangd');
+vim.lsp.enable('gopls');
 
 -- LSP remaps
 
